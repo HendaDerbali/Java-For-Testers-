@@ -1,0 +1,329 @@
+
+********************************** Java for tester **************************************************
+
+
+1/ class ==> Collection of variables and methods
+2/ main() ==> method can be present in same class
+3/ main() ==> method can be present in separate class
+
+Data Types in java:
+1/ Premetive data type: int / double / char / boolean / short / float ...
+2/ Derived data type: String / Hashmap / Array / ArrayList ......
+
+int x = 10;
+float x = 10,5;
+double x = 10,555555;
+char x = 'A',
+
+Variable:
+int x / int y ==> declaration
+x = 10 ==> initialization
+
+
+Operators in java
+10 + 20
++ ==> Operator
+
+*/ Relational operators  (comparaison)
+== <> <= >= !=
+==> Always return boolean (True / False)
+
+*/ Conditionnal statement
+
+Loops / Iterative statement / Jump statement
+
+
+********************************************************************************
+
+     //* Part 1*//
+
+OOP ==> Object Oriented Programming
+
+Object ==> Is an instance of a class
+Method ==> Block of code with contain a logic
+
+/* Class Variables */
+
+We can assign values to variables in 3 ways 
+1/By using refrence variable
+2/By using method
+3/By using constructor
+
+/* Constructor */
+
+2 Types of constructor
+1/ Default constructor
+2/Parametrized constructor
+
+1/ A special type of method
+2/ Used for initialization the class variable
+3/ Name should be same as class name
+4/ Will not return any value
+5/ Will be invoke at the time of object cration
+
+/*  Methods */  ==> Bloc of code
+1/case - 1: Not taking parameters and also not returned any value
+2/case - 2: Not taking parameters but returning value
+3/case - 3: Tacking parameters but not returning value 
+4/case - 4:Tacking parameters and also returning a value
+
+/* Method VS Constructor */
+The purpose of a method is to perform a task by excuting java code
+The purpose of constructor is to initialize the object of a class
+
+//* Part 2 *//
+
+- Overloading
+- This keyword
+- static variable and static method
+
+/* Overloading */
+
+Creating methods / Constructors with the same name method with diferrent parameters.
+Advantages:
+- Save memory
+- Save Time
+
+
+
+/* this keyword */
+
+Usage Of java this keyword
+
+1/ this can be used to refer current class instance variable
+2/ this can be used to invoke current class method
+3/ this() can be used to invoke current class constructor 
+4/ this can be passed as an argument in the method call
+5/ this can be passed as an argument in the constructor call
+6/ this can be used to return the current class instance from the method
+
+/* static variables and static methods */
+
+static ===> applicable for variables and methods
+* static method
+* static variable
+
+1/ static method can acces only static stuff (directly) without create an object
+2 / static method can also access non static stuff but through object
+3/ Non static methods can access both static and non static stuff drect "TRUE"
+
+//* Part 3 *//
+
+- Java inheritance
+- Method overriding
+- super keyword
+- final keyword
+
+/* Java Inheritance */
+
+Acquiring all the properties from one class to another class is called inheritance.
+
+  5 types of inheritance:
+
+1/ Single
+2/ Multilevel
+3/ Hierarchical
+4/ Multiple 
+5/ Hybrid
+
+
+ /* Method overriding */
+
+Rewrite the methods in child classess
+1/Method difinition should be same
+2/Body should be changed
+
+Overloading                                                                               VS       Overriding 
+1/ change the definition of method (number and data of parameters should be different )             1: we don't change the defition
+                                                                                                    2: we should change only the body
+
+ /* super keyword */
+
+===> Use in inheritance
+1/ super can be used to refer immediate parent class instance variable
+2/ super can be used to invoke immediate parent class method
+3/ super() can be used to invoke immediate parent class constructor
+
+
+
+/* final keyword */
+
+Variable ==> you cannot change the value of the variable
+Method ==> You cannot be ovveride in the child class
+Class ==> class cannot be extend into another class
+
+
+//* Part 4*//
+
+*Hybrid Inheritance
+*Multiple Inheritance
+
+- Java interface
+- Java package
+- Access modifier's
+
+/* interface */
+
+-  An interface in java is a blueprint of a code
+- Interface contains final and static variables
+- Interface contains abstract methods
+==> An abstract method is a method contains definition but not body
+
+- Method in interface are public by default
+- Interface supports the functionality of multiple inheritance
+- We can define interface with interface keyword
+- A class extends another class, an interface extends another interface but a class implements an interface
+- We can create object reference for interface but we cannot instantiate interface
+
+
+/* Java package */
+
+Package ==> is a collection of classes / interfaces / files ......
+import ==> is a command
+
+2 types of package:
+
+1/ User defined package (Created by us)
+2/ Build in package
+
+
+
+ /* Access modifier's */
+
+Access modifier's: Define the scope of variables and methods
+
+1/public
+2/protected
+3/default
+4/private
+
+* private: The private access modifier's is accessible only within class.
+* deault: If you don't use any modifier, it is treated as default by default .
+  The default modifier is accessible only within package.
+
+*protected: The protected access modiifer is accessible within package and outside the package but though inheritance.
+* public: We can access everywhere.
+
+
+//* Part 5 *//
+
+Exception Handling 
+Exception is an abnormal condition
+In java, exception is an event that disputs the normal flow of the program
+
+ 2 Types of exception:
+1/ Checked exception :  Identified by the compiler 
+Examples:
+- InterruptedException
+- IOException
+- FileNotFoundException
+
+2/ Unchecked exception: which are not checked / not identified by the compiler
+Examples:
+
+- ArithmeticException
+- NullPointerException
+- NumberFormatException
+- ArrayIndexOutOfBoundsException
+
+
+Finally block ==> Anouar
+
+===> Checked Exception:
+can be handled in 2 ways:
+1/ throws keyword 
+2/ try -- cach
+
+
+//* Part 6 *//
+
+- ArrayList
+- HashMap
+- JDBC
+
+
+/* ArrayList */
+
+Arra list ==> we can store any number and type of elements
+
+int a [] == new int a [5]==> simple Array
+Limitations:
+- We cannot store more then 5 elements
+- We cannot store multiple type of elements 
+
+
+Operation on ArrayList:
+- How to declare array list
+- How to add elements / values to array list
+- Find size of array list
+- Read values from array list
+- Remove elements / values from array list
+- Insert a new element in the middle of array list
+
+
+
+
+  /* HashMap */
+Operation:
+- Declare HashMap
+- Remove element from Hashmap
+- Read pairs for Hashmap
+- Add elemnt to Hashmap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
